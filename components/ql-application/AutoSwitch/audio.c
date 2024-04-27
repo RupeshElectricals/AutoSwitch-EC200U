@@ -824,6 +824,7 @@ void AutoSwitch_audio_app_init(void)
     {
 		QL_AUDIO_LOG("audio task create failed");
 	}
+	QL_AUDIO_LOG("this is git test");
 }
 
 void PlayTTS(char *str_eng)
